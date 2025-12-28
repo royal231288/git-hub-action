@@ -13,4 +13,4 @@ jobs:
     - name: ls -a
       run: ls -a
     - name: cd git-hub-action
-      run: cd git-hub-action && ls -a && cat royal.txt
+      run: cd git-hub-action && ls -a && cat royal.tx
