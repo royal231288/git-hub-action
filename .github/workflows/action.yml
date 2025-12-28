@@ -12,3 +12,7 @@ jobs:
       run: git clone https://github.com/royal231288/git-hub-action.git
     - name: ls -a
       run: ls -a
+    - name: cd git-hub-action
+      run: cd git-hub-action
+    - name: ls -a
+      run: ls -a
