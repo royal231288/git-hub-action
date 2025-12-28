@@ -8,5 +8,7 @@ jobs:
       run: sudo apt update
     - name : git clone 
       uses: actions/checkout@v2
-    - name: cd git-hub-action
-      run: cd git-hub-action && ls -a && cat royal.tx
+    # - name: cd git-hub-action
+    #   run: cd git-hub-action && ls -a && cat royal.tx
+    - name: cat royal.tx
+      run: cat royal.tx
