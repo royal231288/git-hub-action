@@ -6,11 +6,7 @@ jobs:
    steps:
     - name: sudo apt update
       run: sudo apt update
-    - name: sudo apt install git
-      run: sudo apt install git
-    - name: git clone
-      run: git clone https://github.com/royal231288/git-hub-action.git
-    - name: ls -a
-      run: ls -a
+    - name : git clone 
+      uses: actions/checkout@v2
     - name: cd git-hub-action
       run: cd git-hub-action && ls -a && cat royal.tx
