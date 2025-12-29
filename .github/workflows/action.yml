@@ -2,7 +2,7 @@ name: CI/CD pipe line
 on: [push]
 jobs:
   read_the_files: 
-   runs-on: ubuntu-latest
+   runs-on: self-hosted
    steps:
     - name: sudo apt update
       run: sudo apt update
