@@ -8,3 +8,5 @@ jobs:
       run: sudo apt update
     - name: intall nginx
       run: sudo apt install nginx -y
+    - name: Checkout the repo
+      uses: actions/checkout@v2
